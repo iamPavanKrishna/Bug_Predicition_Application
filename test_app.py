@@ -43,7 +43,7 @@ def test_pred_no_defects():
         response = client.post("/predict", json=payload)
         # asserting the correct response is received
         assert response.status_code == 200
-        assert response.json()["defects"] == "no defects" # Changing the syntax due to added timestamp
+        assert response.json()["defects"] == "No defects" # Changing the syntax due to added timestamp
 
 
 def test_pred_defects():
