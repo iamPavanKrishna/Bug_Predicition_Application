@@ -9,7 +9,7 @@ app = FastAPI(title="Bug Predictor",docs_url="/")
 
 app.add_event_handler("startup", load_model)
 
-class QueryIn(BaseModel):
+class QueryIn(BaseModel): 
     mccabe_line_count_of_code: float
     mccabe_cyclomatic_complexity: float
     mccabe_essential_complexity: float

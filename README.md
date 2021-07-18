@@ -1,5 +1,8 @@
 # ML-Ops Application
 ## Group 11
+### Members:
+#### 1. Pavan Krishna (iampavankrishna@gmail.com)
+#### 2. Sanjog Patil (sanjogpatil@hotmail.com)
 
 This repository contains code which demonstrates ML-Ops using a `FastAPI` application which predicts the defects class using the bug_pred.csv 
 

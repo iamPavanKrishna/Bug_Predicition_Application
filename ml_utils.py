@@ -5,7 +5,7 @@ from sklearn.ensemble import AdaBoostClassifier, RandomForestClassifier
 from sklearn.metrics import accuracy_score
 import pandas as pd
 
-# Define all classification model 
+# Defining classification model 
 clf = RandomForestClassifier(n_estimators=100, random_state=0)
 
 
@@ -15,7 +15,7 @@ classes = {
     False : 'No defects'
 }
 r_classes = {y: x for x, y in classes.items()}
-# function to load_model for Naive - Baiye's
+# function to load_model at the start
 def load_model():
         data = pd.read_csv('bug_pred.csv')
         X = data.drop('defects', axis = 1)
